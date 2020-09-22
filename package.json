@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "test": "mocha",
     "deploy": "node ethereum/deploy.js",
     "compile": "node ethereum/compile.js",
